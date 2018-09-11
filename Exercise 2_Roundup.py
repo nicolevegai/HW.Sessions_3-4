@@ -1,7 +1,7 @@
+import math
+num1 = float (input ('Enter the first number: '))
+num2 = float (input ('Enter the second number: '))
 
-num1 = int (input ('Enter the first number: '))
-num2 = int (input ('Enter the second number: '))
+div = float (num1 / num2)
 
-div = int ((num1 - 1) // num2) +1
-
-print('the rounded up division result is', div)
+print('the rounded up division result is', math.ceil(div))
